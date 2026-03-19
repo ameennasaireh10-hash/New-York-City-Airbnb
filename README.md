@@ -9,9 +9,7 @@ The goal is to estimate listing prices based on features such as location, avail
 🧹 Data Preprocessing
 
 Removed unnecessary and non-informative features (e.g. names, IDs).
-
 Handled missing values using simple imputation (filled with 0 where appropriate).
-
 Applied:
 
 
@@ -50,7 +48,6 @@ At some point, results became inconsistent and hard to interpret, which led me t
 🤖 Modeling Approach
 
 Multiple models were tested and tuned using GridSearchCV.
-
 The main focus was on improving generalization and reducing overfitting rather than just increasing training performance.
 
 
@@ -92,12 +89,10 @@ This project represents a full end-to-end regression pipeline, including preproc
 
 
 The results are decent, but honestly, I’m not fully convinced they represent the best possible outcome.
-
 However, I put significant effort into experimenting, analyzing, and pushing the model as far as I could with the available data.
 
 
 This project was a strong learning experience in dealing with real-world data limitations and model behavior.
-
 
 
 Author
